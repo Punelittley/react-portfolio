@@ -16,7 +16,7 @@ function About() {
           className={styles.toggleBtn} 
           onClick={() => setShowMore(!showMore)}
         >
-          {showMore ? 'Скрыть подробности' : 'Узнать больше обо мне'}
+          {showMore ? 'Скрыть' : 'О себе'}
         </button>
 
         {showMore && (
